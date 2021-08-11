@@ -26,9 +26,5 @@ namespace DrugManagementApi.Models
         [Range(double.Epsilon, double.MaxValue)]
         public double Price { get; set; }
 
-        public override string ToString()
-        {
-            return "Code: " + Code + " Label" + Label;
-        }
     }
 }
